@@ -1,0 +1,13 @@
+/*
+style stylesheet
+Created by kevin.t
+on 2015-02-05
+*/
+
+body{background-color: #f8f8f8; position: relative; width: 100%;}
+.wrapper{position: relative; width: 60%; margin: 50px auto; padding: 20px; background-color: #e6f1f6; border: 1px solid #e6f1f6; border-radius: 5px;}
+.header{padding: 20px 0;}
+.header h1{line-height: 80px; font-size: 80px;}
+.h-line{display: block; width: 100%; border-bottom: 2px solid #eaeaea; margin: 20px auto;}
+.content{}
+.content p{line-height: 24px; font-size: 24px;}
