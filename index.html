@@ -37,7 +37,7 @@
       var minutes = Math.floor(tmp/1000/60 - days*24*60 - hours*60);
       var seconds = Math.floor(tmp/1000 - days*24*60*60 - hours*60*60 - minutes*60);
       document.getElementById("timeToBack").innerHTML = "人人影视将于"+days+"天"+hours+"小时"+minutes+"分钟"+seconds+"秒"+"之后回归。";
-      var timetemp = setTimeOut('run()', 500);
+      timetemp = setTimeout('run()', 500);
     }
     </script>
   </body>
