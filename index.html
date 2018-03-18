@@ -3,52 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>GitGump homepage</title>
-
+    <title>Smash</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
-  <body onload="run()">
-    <div class="wrapper media-wrapper">
-      <div class="header">
-        <h1>Hello world!</h1>
-      </div>
-      <span class="h-line"></span>
-      <div class="content">
-        <p>My js sucks!</p>
-        <a href="Wechat-Page-Demo1/" target="_blank">Demo1 -- Wechat full page</a>
-        <a href="loadingAnimationCases/" target="_blank">Demo2 -- Loading animation examples in CSS3</a>
-        <a href="parallaxBox/" target="_blank">Demo3 -- parallaxBox demo for mobile phone in parallax.js</a>
-        <a href="fullPageDemo/" target="_blank">Demo4 -- Demo in fullPage.js</a>
-        <a href="thereWillBeBlood/" target="_blank">Demo5 -- There will be blood</a>
-        <a href="windows/" target="_blank">Demo6 -- a jquery plugin for full-screen scrolling windows</a>
-        <a href="inline-pages/" target="_blank">Demo7 -- A demo in Framework7, built for ios app</a>
-        <a href="split-view-panel/" target="_blank">Demo8 -- Demo 2 in Framework7, split view panel</a>
-        <a href="split-view/" target="_blank">Demo9 -- Demo 3 in Framework7, split view</a>
-        <a href="tab-bar/" target="_blank">Demo10 -- Demo 4 in Framework7, tab bar</a>
-        <a href="template7-pages/" target="_blank">Demo11 --Demo 5 in Framework7, template 7 pages</a>
-        <a id="timeToBack" href="http://www.yyets.com" target="_blank"></a>
-      </div>
-    </div>
-
-    <script src="js/scale.fix.js"></script>
-    <!-- countdown for yyets.com -->
-    <script>
-    var time = Date.UTC(2015,1,6,4,0);
-    function run(){
-      var today = new Date();
-      var tmp = time - today.valueOf();
-      var days = Math.floor(tmp/1000/60/60/24);
-      var hours = Math.floor(tmp/1000/60/60 - days*24);
-      var minutes = Math.floor(tmp/1000/60 - days*24*60 - hours*60);
-      var seconds = Math.floor(tmp/1000 - days*24*60*60 - hours*60*60 - minutes*60);
-      document.getElementById("timeToBack").innerHTML = "人人影视将于"+days+"天"+hours+"小时"+minutes+"分钟"+seconds+"秒"+"之后回归。";
-      timetemp = setTimeout('run()', 500);
-    }
-    </script>
+  <body>
+    <header>Dog days are over.<header>
   </body>
 </html>
